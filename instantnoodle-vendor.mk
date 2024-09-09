@@ -91,8 +91,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9638.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b07 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9638.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.mdt \
     vendor/oneplus/instantnoodle/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
-    vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/oneplus/instantnoodle/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
+    vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc
