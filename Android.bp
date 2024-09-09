@@ -7,3 +7,169 @@ soong_namespace {
         "vendor/oneplus/sm8250-common",
     ],
 }
+
+cc_prebuilt_library_shared {
+    name: "com.qti_instantnoodle.sensor.gc2375",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.gc2375.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libofflinelog",
+                "libsync",
+                "libbinder",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti_instantnoodle.sensor.imx471",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx471.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libofflinelog",
+                "libsync",
+                "libbinder",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti_instantnoodle.sensor.imx481",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx481.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libofflinelog",
+                "libsync",
+                "libbinder",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti_instantnoodle.sensor.imx586",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx586.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libofflinelog",
+                "libsync",
+                "libbinder",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.keymaster@4.0-service-qti",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libbase",
+                "libutils",
+                "libhardware",
+                "libhidlbase",
+                "android.hardware.keymaster@4.0",
+                "libqtikeymaster4",
+                "libcrypto",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}

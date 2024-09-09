@@ -66,10 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.semco_imx586.bin \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti.tuned.shine_gc2375.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.shine_gc2375.bin \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.truly_imx471.bin \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.gc2375.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.gc2375.so \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx471.so \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx481.so \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx586.so \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b00 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b01 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b02 \
@@ -88,5 +84,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9638.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b06 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9638.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b07 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9638.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.mdt \
-    vendor/oneplus/instantnoodle/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/oneplus/instantnoodle/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+
+PRODUCT_PACKAGES += \
+    com.qti_instantnoodle.sensor.gc2375 \
+    com.qti_instantnoodle.sensor.imx471 \
+    com.qti_instantnoodle.sensor.imx481 \
+    com.qti_instantnoodle.sensor.imx586 \
+    android.hardware.keymaster@4.0-service-qti
