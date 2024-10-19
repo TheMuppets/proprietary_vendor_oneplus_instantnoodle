@@ -70,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx471.so \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx481.so \
     vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/com.qti_instantnoodle.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_instantnoodle.sensor.imx586.so \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.stats.pdlib.so \
-    vendor/oneplus/instantnoodle/proprietary/odm/lib64/camera/components/libipebpsstriping.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/libipebpsstriping.so \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b00 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b01 \
     vendor/oneplus/instantnoodle/proprietary/odm/vendor/firmware/gfp9608.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9608.b02 \
